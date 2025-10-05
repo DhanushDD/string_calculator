@@ -53,3 +53,10 @@ int add(String numbers)
 "//[delimiter]\n[numbers]" → e.g. "//;\n1;2" = 3
 6. Support multiple or multi-character delimiters (e.g. "//[***][%%]\n1***2%%3" = 6).
 7. Throw an exception for negative numbers with a message listing all negatives.
+
+## Files used in this Project:-
+1. `string_calculator.rb` - Contains the implementation of the StringCalculator class.
+2. `spec/string_calculator_spec.rb` - Contains the tests written in RSpec for the StringCalculator class.
+3. `.rspec` - Configures RSpec options such as color output and formatter.
+4. `Gemfile` & `Gemfile.lock` - Defines gem dependencies for testing purposes.
+5. `.gitignore` - Specifies files/directories that should be ignored by Git.
